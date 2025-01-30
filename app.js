@@ -1,2 +1,8 @@
-function listaDeParticipantes()
-function adicionarParticipante()
+let amigos [];
+
+document.getElementById
+
+function adicinarAmigo() {
+
+    
+}
