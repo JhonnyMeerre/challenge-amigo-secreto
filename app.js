@@ -1,18 +1,18 @@
-// Array para armazenar os nomes dos amigos
+// Array para armazenar os nomes dos amigos adicionados
 let amigos = [];
 
-// Função para adicionar um amigo à lista
+// Função para adicionar um amigo à lista que vai aparecer para todos
 function adicionarAmigo() {
     const inputAmigo = document.getElementById('amigo');
     const nomeAmigo = inputAmigo.value.trim();
 
-    // Verificar se o campo está vazio
+    // Verificar se o campo adicionar amigo está vazio
     if (nomeAmigo === '') {
         alert('Por favor, digite um nome.');
         return;
     }
 
-    // Verificar se o nome já foi adicionado
+    // Verificar se o nome já foi adicionado a lista
     if (amigos.includes(nomeAmigo)) {
         alert('Este nome já foi adicionado!');
         return;
